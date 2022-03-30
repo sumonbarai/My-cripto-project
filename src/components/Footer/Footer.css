@@ -1,0 +1,9 @@
+.footer-area {
+  background-color: #222f3e;
+  color: #fff;
+}
+.footer-area p {
+  padding: 20px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
