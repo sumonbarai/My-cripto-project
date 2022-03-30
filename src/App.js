@@ -8,6 +8,7 @@ import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 import NotFound from "./components/NotFound/NotFound";
 import Footer from "./components/Footer/Footer";
+import CoinCardDisplay from "./components/Coins/CoinCardDisplay";
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/coins" element={<Coins></Coins>}></Route>
+        <Route
+          path="/coin/:coinId"
+          element={<CoinCardDisplay></CoinCardDisplay>}
+        ></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>

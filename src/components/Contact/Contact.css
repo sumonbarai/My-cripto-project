@@ -1,0 +1,16 @@
+.contact-area {
+  height: 87.3vh;
+  width: 100%;
+}
+.contact-area h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+.contact-area button {
+  border: none;
+  background-color: orange;
+  border-radius: 10px;
+  margin: 20px 5px;
+  padding: 10px 20px;
+}
